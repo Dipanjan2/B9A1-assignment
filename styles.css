@@ -409,5 +409,230 @@ border: 15px solid #F00;
     font-weight: 400;
     line-height: 32px; /* 160% */
     }
+
+
+    .nine-sec{
+        width: 1320px;
+        height: 616px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: rgba(255, 0, 0, 0.05);
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 120px;
+
+    }
+
+    .news{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Center the image horizontally */
+        align-items: center; 
+        
+    }
+
+    
+
+    .alt{
+        width: 150px;
+        height: 150px;
+        flex-shrink: 0;
+        display: flex;
+       
+
+    }
+
+    .sub{
+        color: #070211;
+        text-align: center;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize;
+
+    }
+
+    .curve{
+        width: 896px;
+        color: rgba(7, 2, 17, 0.60);
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 32px; /* 160% */
+    
+    }
+
+    .mail{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+
+
+    }
+
+    .gmail{
+        width: 648px;
+  height: 72px;
+  border-radius: 50px 0 0 50px; 
+  background: #FFF;
+  border: none;
+  margin-top: 48px;
+  padding-left:20px;
+  position: relative;
+  font-size:18px;
+
+    }
+
+    .btn{
+        width: 210px;
+        height: 72px;
+        border-radius: 0 50px 50px 0; 
+        background: #F00;
+        border: none;
+        margin-top:48px;
+        color:#fff;
+        font-family: 'Inter';
+        font-size: 20px;
+        font-weight: 600;
+      
+    }
+
+    .final{
+        width: 2000px;
+        height: 609px;
+        flex-shrink: 0;
+        background: #070211;
+
+    }
+
+    .last{ display: flex;
+          flex-direction: row;
+          justify-content: center;
+    }
+
+    .asa1{  padding: 100px 600px 50px 50px;
+
+    }
+
+    .asa2{
+        padding: 100px 100px 50px 300px;
+
+    }
+
+    .sus1{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px; 
+        width: 375px; ;
+        height: 80px; ;
+    }
+
+    .phone-number{
+        background-image: url('resources/Call.png');
+            background-repeat: no-repeat;
+            background-size: 24px 24px; /* Adjust based on the size of your icon */
+            flex-shrink: 0;
+            padding-left: 25px; /* Adjust so the text does not overlap the icon */
+            background-position: left center;
+
+            color: #FFF;
+
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 40px;
+
+    }
+
+    .website{
+        background-image: url('resources/Website.png');
+        background-repeat: no-repeat;
+        background-size: 24px 24px; /* Adjust based on the size of your icon */
+        flex-shrink: 0;
+        padding-left: 25px; /* Adjust so the text does not overlap the icon */
+        background-position: left center;
+
+        color: #FFF;
+
+         font-family: Inter;
+         font-size: 24px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: 40px;
+
+    }
+
+    .line1{
+        width: 1320px;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.15);
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .moja{
+        /*display: flex;
+        flex-direction: column;
+        display: grid;
+            place-items: center; */
+       
+         }
+
+         .rop{
+            width: 64px;
+            height: 64px;
+            flex-shrink: 0;
+            
+          /*  display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid;
+            row-gap: 10px; */
+            
+         }
+
+         .sir{
+            display: flex;
+          flex-direction: row;
+          justify-content: center;
+
+         }
+
+         .tar{
+            color: #FFF;
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            height: 29px;
+            width: 295px;
+            padding: 100px 600px 50px 50px;
+
+         }
+         .bar{
+            color: #FFF;
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            width: 245px;
+            height: 29px;
+            padding: 100px 100px 50px 300px;
+
+         }
+
     
     
