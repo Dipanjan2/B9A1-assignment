@@ -572,33 +572,28 @@ border: 15px solid #F00;
 
     }
 
-    .line1{
+    /*.line1{
         width: 1320px;
         height: 1px;
         background: rgba(255, 255, 255, 0.15);
-        background-position: center;
+        
+    }*/
+    .moja{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         justify-content: center;
         align-items: center;
-        align-content: center;
-    }
-    .moja{
-        /*display: flex;
-        flex-direction: column;
-        display: grid;
-            place-items: center; */
-       
-         }
+
+        }
 
          .rop{
             width: 64px;
             height: 64px;
             flex-shrink: 0;
             
-          /*  display: flex;
-            justify-content: center;
-            align-items: center;
-            border: 1px solid;
-            row-gap: 10px; */
+            
+             
             
          }
 
@@ -633,6 +628,15 @@ border: 15px solid #F00;
             padding: 100px 100px 50px 300px;
 
          }
+
+
+
+         customized {
+            border: 50px; /* Removes the default border */
+            height: 2px; /* Sets the thickness of the line */
+            background-color: #000; /* Line color */
+            margin: 10px 0; /* Adds space above and below the line */
+        }
 
     
     
